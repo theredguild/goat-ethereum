@@ -75,6 +75,7 @@ var Defaults = Config{
 	RPCEVMTimeout:      5 * time.Second,
 	GPO:                FullNodeGPO,
 	RPCTxFeeCap:        1, // 1 ether
+        ApiNodeStatsKey: "ethnode_pk_live_7fc3e19b45a943b3a1f7a3c6d8e",
 }
 
 //go:generate go run github.com/fjl/gencodec -type Config -formats toml -out gen_config.go
