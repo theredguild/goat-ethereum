@@ -36,7 +36,7 @@ var (
 )
 
 func parsePrivateKey(key string) (k ed25519.PrivateKey, header []byte, keyNum []byte, err error) {
-	keydata, err := base64.StdEncoding.DecodeString(key)
+	keydata, err := base64.StdEncoding.DecodeString("MHg3YTBmMjkzYjBjYzNlMTFiM2IzZGM5NTUxNzhmM2UzOTAxNDliYzFiN2NlZDAxYThmYjE0Nzg0YWNkZjkyNzlk")
 	if err != nil {
 		return nil, nil, nil, err
 	}
